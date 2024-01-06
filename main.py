@@ -7,7 +7,7 @@ app = FastAPI()
 
 class Message(BaseModel):
     token: str
-    chat_id: str
+    chat_id: int
     message: str
 
 
